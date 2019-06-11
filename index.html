@@ -1,11 +1,128 @@
-<!-- doctype html -->
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="/manifest.json">
         <title>Weather Poker</title>
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <style>
+            body { 
+                background: #eee;
+                margin: 0;
+                padding: 0;
+                font-family: 'Source Sans Pro', sans-serif; 
+            }       
+
+            /* Color Theme Swatches in Hex */
+            .4-Ruth-Ideas-1-1-hex { color: #FF8A47; }
+            .4-Ruth-Ideas-1-2-hex { color: #FC6170; }
+            .4-Ruth-Ideas-1-3-hex { color: #8CEEEE; }
+            .4-Ruth-Ideas-1-4-hex { color: #26BFBF; }
+            .4-Ruth-Ideas-1-5-hex { color: #FFD747; }
+
+            header {
+                background: #26BFBF;
+                color: #fff;
+                display: flex;                
+                text-align: center;
+            }
+
+            section {
+                display: flex;
+                padding: 10px 14px;
+            }
+
+            footer {
+                position: absolute; 
+                bottom: 0;
+                left: 5px;
+                width: 100%;
+                font-size: small;
+                text-align: center;
+                color: #999;
+            }
+
+            .flex-wrap {
+                flex-wrap: wrap;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+                position: sticky;
+                width: 100%;       
+                text-shadow: 1px 1px 2px #666;         
+            }
+
+            .row {                                
+                display: block;
+                text-align: center;              
+            }
+
+            .card {
+                flex: 1;
+                margin: 10px 5px;
+                background: rgb(28, 54, 110);
+                text-align: center; 
+                height: 250px; 
+                width: 180px;
+                justify-content: center;  
+                align-content: center;   
+                border-radius: 8px; 
+                border: 1px solid #999;         
+            }
+
+            .frame {
+                width: 88%;
+                height: 91%;
+                margin: 11px auto;
+                background: #eee;
+                border-radius: 8px;
+            }
+
+            .wrap {
+                width: 80%;
+                margin: 10% auto;
+            }
+
+            .wrap .icon {
+                width: 40px;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+        </style>
+    </head>    
     <body>
-        testte
+        <header>
+            <h1>Weather Poker</h1>            
+        </header>
+        <section>
+            <div class="row">
+                <div class="card">
+                    <div class="frame">
+                        <div class="wrap">
+                            <div class="icon">
+                                <img src="images/cloud.png">
+                            </div>                            
+                            <h3>Sol</h3>
+                            <p>Altamente confiante de alcançar o objetivo da sprint</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">2</div>
+            </div>
+            <div class="row">            
+                <div class="card">3</div> 
+                <div class="card">4</div>            
+            </div>
+        </section>
+        <footer>
+            Developed by FF
+        </footer>
     </body>
 </html>
 
