@@ -52,7 +52,7 @@ footer {
 }
 
 header h1 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     position: sticky;
     width: 100%;       
     text-shadow: 1px 1px 2px #666;         
@@ -127,12 +127,24 @@ img {
 
 .highlighted .card {
     height: 100%;
-    margin: 45% auto;
-    width: 50%;
+    margin: 35% auto;
+    width: 70%;
+}
+
+.highlighted .frame {
+    padding: 30% 0;
+}
+
+.highlighted .card h3 {
+    font-size: 32px;
+}
+
+.highlighted .card p {
+    font-size: 20px;
 }
 
 .highlighted .card .icon {
-    width: 65%;
+    width: 75%;
 }
 .card:hover {
     opacity: 0.7;
