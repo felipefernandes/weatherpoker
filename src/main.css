@@ -29,7 +29,7 @@ header {
 
 section {
     display: flex;
-    padding-top: 65px;
+    padding-top: 12%;
 }
 
 .container {
@@ -106,6 +106,7 @@ header h1 {
 
 .wrap p {
     margin:0;
+    font-size: 0.75em;
 }
 
 img {
@@ -127,7 +128,7 @@ img {
 
 .highlighted .card {
     height: 100%;
-    margin: 35% auto;
+    margin: 25% auto 35%;
     width: 70%;
 }
 
